@@ -1,0 +1,58 @@
+.textov{
+    color:red;
+    text-align: center;
+}
+
+h1{
+    color: blueviolet;
+    text-align:center;
+}
+
+body{
+    background-color:rgb(171, 219, 219);
+}
+<div class="img1">
+		<img src="banner-removebg.png"> <!-- imagem logo  --> 
+	</div>
+    
+	<nav>
+		<ul>
+			<li> <a href="index.html"> Início</a></li>
+			<li> <a href="contato.html"> Contato </a> </li>
+		</ul>
+	</nav>
+
+    <div id="div_texto">   
+    	<h1> Sobre a Barbearia Alura </h1> <!-- h1:título principal -->          
+		<p> <!-- p: parágrago --> 
+			Localizada no coração da cidade a <strong> Barbearia Alura </strong> para o mercado o que há
+			de melhor para o seu cabelo e barba.Fundada em 2019, a Barbearia Alura já é
+			destaque na cidade e conquista novos clientes a cada dia.
+		</p>
+		<p class="mudar_cor">  <!-- classe para modificar a cor do somente desse parágrafo  -->  
+			<em> 
+				Nossa missão é: <strong> "Proporcionar auto-estima e qualidade de vida aos clientes". </strong>
+			</em>
+		</p> 
+		<p>
+			Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+			O atendimento possui padrão de excelência e agilidade, garantindo qualidade e 
+			satisfação dos nossos clientes.
+		</p>  
+	</div>
+
+	<div class="img2"> 
+ 		<img src="images.png"> <!-- imagem --> 
+	</div>
+    <div class="div_lista">
+    <h2> Benefícios</h2> <!-- h2:subtítulo  --> 
+    <ul style="list-style-type:square">  <!-- ul: lista não ordenada  --> 
+        <li> atendimento ao clientes </li> <!-- li: linha  --> 
+        <li> espaço diferenciado </li>
+        <li> localização</li>
+        <li> profissionais qualificados </li>
+    </ul>
+    
+</div>
+</body>
+</html>
